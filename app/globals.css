@@ -2,6 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@font-face {
+  font-family: 'AeonikRegular';
+  src: url('/fonts/Aeonik-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AeonikBold';
+  src: url('/fonts/Aeonik-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AeonikLight';
+  src: url('/fonts/Aeonik-Light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.AeonikRegular {
+  font-family: 'AeonikRegular', sans-serif;
+}
+
+.AeonikBold {
+  font-family: 'AeonikBold', sans-serif;
+}
+
+.AeonikLight {
+  font-family: 'AeonikLight', sans-serif;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +68,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.bg-display1 {
+  background: url('/pattern1.svg');
+  background-color: #F0EBFC;
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  background-size: contain;
+  background-position: right center;
 }

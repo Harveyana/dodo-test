@@ -2,112 +2,187 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+
+      <main className="w-full flex flex-col gap-y-6 sm:gap-y-8 bg-[#fcfbfe] p-4 lg:p-6 mb-12">
+
+        <div className="flex flex-col w-full gap-y-1.5">
+          <h1 className="font-bold text-xl text-[#201E1E]">Welcome Susan,</h1>
+          <p className=" AeonikRegular text-sm text-[#344054]">Get ready to complete your research processes on Zadwax</p>
         </div>
-      </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <div className="w-full bg-display1 px-6 py-10 flex flex-col gap-y-1.5 rounded-xl">
+          <p className="text-xs font-medium text-[#101828]">Welcome to the cool kids club</p>
+          <h1 className="w-[90%] font-medium text-sm sm:text-xl text-[#4A24A1]">The new way designers revolutionize their work. See how others are using Zadwax to accelerate their design process.</h1>
+        </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+        <div className="flex flex-col sm:flex-row gap-6">
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+          {/* box 2 */}
+          <div className="w-full sm:w-1/2 flex flex-col gap-y-3.5 p-3 rounded-xl border border-[#EAECF0]">
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+            {/* heading */}
+            <div className="flex items-center justify-center pb-4 border-b border-[#EAECF0]">
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+              <div className="flex flex-col w-full">
+                <h1 className="font-bold text-[#201E1E]">Getting Started</h1>
+                <p className=" AeonikRegular text-xs text-[#344054]">Three simple steps to launch your first project</p>
+              </div>
+
+              <button aria-expanded="true" aria-controls="sidebar" className="w-fit bg-[#6832E3] rounded-lg cursor-pointer focus-none">
+                <p className=" AeonikRegular text-sm text-[#FFFFFF] whitespace-nowrap px-3 py-2">Create project</p>
+              </button>
+
+            </div>
+
+            <div className="flex flex-col w-full">
+              <h1 className="text-[13px] font-semibold text-[#344054]">Step 1: Create your project</h1>
+              <p className=" AeonikRegular text-xs text-[#667085]">Give your project a name, add a description and your goals.</p>
+            </div>
+
+            <div className="flex flex-col w-full">
+              <h1 className="text-[13px] font-semibold text-[#344054]">Step 2: Invite your teammates</h1>
+              <p className=" AeonikRegular text-xs text-[#667085]">Research is better together, Invite your colleagues.</p>
+            </div>
+
+            <div className="flex flex-col w-full">
+              <h1 className="text-[13px] font-semibold text-[#344054]">Step 3: Setup your research process</h1>
+              <p className=" AeonikRegular text-xs text-[#667085]">Add the processes that are specific to this project.</p>
+            </div>
+
+
+
+          </div>
+
+
+          <div className="w-full sm:w-1/2 flex flex-col gap-y-3.5 p-3 rounded-xl border border-[#EAECF0]">
+
+            {/* heading */}
+            <div className="flex items-center justify-center pb-4 border-b border-[#EAECF0]">
+
+              <div className="flex flex-col w-full">
+                <h1 className="font-bold text-[#201E1E]">Research Tips and Tricks</h1>
+                <p className=" AeonikRegular text-xs text-[#344054]">Three simple steps to launch your first project</p>
+              </div>
+
+            </div>
+
+            <div className="flex flex-col w-full">
+              <h1 className="text-[13px] font-semibold text-[#344054]">Don’t start from scratch, use a template</h1>
+              <p className=" AeonikRegular text-xs text-[#667085]">Begin with field-tested frameworks adaptable to your research.</p>
+            </div>
+
+            <div className="flex flex-col w-full">
+              <h1 className="text-[13px] font-semibold text-[#344054]">Add steps and set milestones</h1>
+              <p className=" AeonikRegular text-xs text-[#667085]">Define key stages and monitor progress from hypothesis to conclusion.</p>
+            </div>
+
+            <div className="flex flex-col w-full">
+              <h1 className="text-[13px] font-semibold text-[#344054]">Track changes in your documents over time.</h1>
+              <p className=" AeonikRegular text-xs text-[#667085]">Capture every revision to ensure data integrity and transparency.</p>
+            </div>
+
+
+
+          </div>
+
+
+        </div>
+
+        <div className="w-full flex flex-col gap-y-4">
+          <h1 className="font-bold text-[#201E1E]">Resources for you</h1>
+
+          <div className="w-full flex flex-col gap-y-4 gap-x-6 sm:flex-row">
+
+            {/* resource 1 */}
+            <div className="flex flex-col gap-y-6 w-full  sm:w-[25%] rounded-lg">
+
+              <Image
+                className="w-full relative"
+                src="/resources.svg"
+                width={0}
+                height={0}
+                alt="profile image"
+                priority
+              />
+
+              <div className="flex flex-col gap-y-1 w-full">
+                <h1 className="text-[14px] font-semibold text-[#344054]">Academic literature review</h1>
+                <p className=" AeonikRegular text-[11px] text-[#667085]">Organize your sources and synthesize information effectively.</p>
+              </div>
+
+            </div>
+
+            {/* resource 2 */}
+            <div className="flex flex-col gap-y-6 w-full  sm:w-[25%] rounded-lg">
+
+              <Image
+                className="w-full relative"
+                src="/resources.svg"
+                width={0}
+                height={0}
+                alt="profile image"
+                priority
+              />
+
+              <div className="flex flex-col gap-y-1 w-full">
+                <h1 className="text-[14px] font-semibold text-[#344054]">Data analysis templates</h1>
+                <p className=" AeonikRegular text-[11px] text-[#667085]">Streamline patient data collection and analysis for medical research.</p>
+              </div>
+
+            </div>
+
+            {/* resource 3 */}
+            <div className="flex flex-col gap-y-6 w-full  sm:w-[25%] rounded-lg">
+
+              <Image
+                className="w-full relative"
+                src="/resources.svg"
+                width={0}
+                height={0}
+                alt="profile image"
+                priority
+              />
+
+              <div className="flex flex-col gap-y-1 w-full">
+                <h1 className="text-[14px] font-semibold text-[#344054]">UX Heuristic template.</h1>
+                <p className=" AeonikRegular text-[11px] text-[#667085]">Assess your interface against established usability principles.</p>
+              </div>
+
+            </div>
+
+            {/* resource 4 */}
+            <div className="flex flex-col gap-y-6 w-full  sm:w-[25%] rounded-lg">
+
+              <Image
+                className="w-full relative"
+                src="/resources.svg"
+                width={0}
+                height={0}
+                alt="profile image"
+                priority
+              />
+
+              <div className="flex flex-col gap-y-1 w-full">
+                <h1 className="text-[14px] font-semibold text-[#344054]">Affinity mapping template</h1>
+                <p className=" AeonikRegular text-[11px] text-[#667085]">Assess your interface against established usability principles.</p>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+
+        
+
+      
+      </main>
+    
+    </>
+    
   );
 }
